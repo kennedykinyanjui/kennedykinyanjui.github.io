@@ -85,7 +85,7 @@ ul.address li ul.agileits-address-text li {
     color:rgba(255, 255, 255, 0.76);
     margin-top: 1em;
     font-weight: 600;
-    font-family: 'Text Me One', sans-serif;
+    font-family: 'Dekko', cursive;
 }
 ul.address li ul.agileits-address-text li:nth-child(1) {
     width: 20%;
@@ -147,6 +147,7 @@ ul.agileits-address-text li span {
 }
 li.agile-it-adress-left b {
     color: #fff;
+    font-family: 'Dekko', cursive;
 }
 /*-- button-effect --*/
 .thim-click-to-bottom {
