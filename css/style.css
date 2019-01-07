@@ -673,9 +673,11 @@ h3.w3-head-project {
     padding: 0.3em;
 	text-transform: capitalize;
 }
-
 .w3-edu-info2 p{
     font-family: 'Kalam', cursive;
+}
+.w3-edu-info2 h4{
+    font-family: 'Julee', cursive;
 }
 .w3-edu-info1 h3 {
     text-transform: capitalize;
