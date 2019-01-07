@@ -1,11 +1,3 @@
-/*--
-	Author: W3Layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
---*/
-/*-- Reset-Code --*/
-
 body {
 	padding: 0;
 	margin: 0;
@@ -119,9 +111,8 @@ ul.agileits-address-text li a {
     color: #fff;
     font-size: 2.8em;
     font-weight: 600;
-    text-transform: uppercase;
         letter-spacing:1px;
-   font-family: 'Raleway', sans-serif;
+   font-family: 'Dekko', cursive;
 }
 .w3-banner-img p {
     color: #ffc53e;
@@ -134,13 +125,14 @@ ul.agileits-address-text li a {
   font-size: 3em;
     color: #fff;
     letter-spacing: 2px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Dekko', cursive;
 }
 .w3-banner-grid-right p {
     color:#c5c2c2;
     font-size: 1em;
     line-height: 1.8em;
     letter-spacing: 1px;
+    font-family: 'Dekko', cursive;
 }
 ul.agileits-address-text li span {
     margin: 0.2em;
@@ -583,20 +575,21 @@ li.agile-it-adress-left b {
     font-size: 2em;
     text-transform: capitalize;
     letter-spacing: 2px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Cookie', cursive;
 }
 .w3-about-grid-right1 p {
     line-height: 1.8em;
     font-size: 1em;
     margin: 1em 0;
-	    color: #999;
+        color: #999;
+        font-family: 'Kalam', cursive;
 }
 .w3-about-grid-right1 h5 {
     font-size: 1.3em;
     color:#00bcd4;
 	text-transform: capitalize;
 	    letter-spacing: 2px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Dekko', cursive;
 }
 .w3-about-grid-small-border {
     border: 1px solid #ffb900;
@@ -612,7 +605,7 @@ li.agile-it-adress-left b {
        color: #fdac14;
     font-size: 2em;
     text-transform: capitalize;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Dekko', cursive;
     letter-spacing: 2px;
 }
 .w3-about-grid-left2 p {
@@ -628,7 +621,7 @@ li.agile-it-adress-left b {
     letter-spacing: 2px;
     font-size: 1.5em;
     margin: 2em 0 0 0;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Dekko', cursive;
 }
 .w3-about-grid-left2 {
     margin: 7em 0 0 0;
@@ -655,7 +648,7 @@ h3.w3-head-project {
 	text-align:center;
 	text-transform:uppercase;
 	letter-spacing: 2px;
-        font-family: 'Poppins', sans-serif;
+    font-family: 'Julee', cursive;
 }
 /*-- education and experience --*/
 .w3-edu-top {
@@ -668,7 +661,7 @@ h3.w3-head-project {
     text-transform: capitalize;
     margin-bottom: 25px;
     letter-spacing: 2px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Dekko', cursive;
 }
 .w3-edu-info2 span {
     margin-left: 1.5em;
@@ -680,16 +673,20 @@ h3.w3-head-project {
     padding: 0.3em;
 	text-transform: capitalize;
 }
-.w3-edu-info1 h4 {
+
+.w3-edu-info2 p{
+    font-family: 'Kalam', cursive;
+}
+.w3-edu-info1 h3 {
     text-transform: capitalize;
     color: #dcad3f;
 	letter-spacing: 2px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Dekko', cursive;
 }
 .w3-edu-grid-header h3 {
        color: #00bcd4;
     font-size: 3em;
-        font-family: 'Poppins', sans-serif;
+    font-family: 'Julee', cursive;
 	
 }
 .w3-edu-info-right2 h3 {
@@ -698,7 +695,7 @@ h3.w3-head-project {
     text-transform: capitalize;
     margin-bottom: 25px;
     letter-spacing: 2px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Dekko', cursive;
 }
 .w3-edu-info-right1 h3 {
     color: #fff;
@@ -709,7 +706,7 @@ h3.w3-head-project {
     color:#dcad3f;
 	text-transform:capitalize;
 	letter-spacing: 2px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Dekko', cursive;
 }
 .w3-edu-info2 p {
     color: #8a8a8a;
@@ -1645,7 +1642,7 @@ h4.modal-title {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Julee', cursive;
 	}
 	.w3-edu-grid-header h3 {
     font-size: 3em;
