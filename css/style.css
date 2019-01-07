@@ -763,7 +763,8 @@ background: linear-gradient(to right, #fc67fa, #f4c4f3); /* W3C, IE 10+/ Edge, F
 .skills-bar .b_label, .skills-bar .bar_label_min, .skills-bar .bar_label_max, .skills-bar .b_tooltip span {
     color: #fff;
     font-size: .9em;
-	font-weight:600;
+    font-weight:600;
+    font-family: 'Dekko', cursive;
 }
 .skills-bar .bar_label_max {
     position: absolute;
@@ -1200,10 +1201,12 @@ h4.modal-title {
     color: #fff;
     letter-spacing: 3px;
     margin-bottom: .5em;
+    font-family: 'Dekko', cursive;
 }
 .w3ls_footer_grid_leftr p{
 	color:#999;
-	line-height:1.5em;
+    line-height:1.5em;
+    font-family: 'Julee', cursive;
 }
 .w3ls_footer_grid_leftr a{
 	color:#999;
@@ -1219,7 +1222,8 @@ h4.modal-title {
 .w3l_footer_pos p{
 	text-align:center;
 	color:#fff;
-	line-height:1.8em;
+    line-height:1.8em;
+    font-family: 'Julee', cursive;
 }
 .w3l_footer_pos p a{
 	color:#44c7f4;
