@@ -576,14 +576,14 @@ li.agile-it-adress-left b {
     font-size: 2em;
     text-transform: capitalize;
     letter-spacing: 2px;
-    font-family: 'Cookie', cursive;
+    font-family: 'Dekko', cursive;
 }
 .w3-about-grid-right1 p {
     line-height: 1.8em;
-    font-size: 1em;
+    font-size: 1.2em;
     margin: 1em 0;
         color: #999;
-        font-family: 'Kalam', cursive;
+        font-family: 'Dekko', cursive;
 }
 .w3-about-grid-right1 h5 {
     font-size: 1.3em;
@@ -649,7 +649,7 @@ h3.w3-head-project {
 	text-align:center;
 	text-transform:uppercase;
 	letter-spacing: 2px;
-    font-family: 'Julee', cursive;
+    font-family: 'Dekko', cursive;
 }
 /*-- education and experience --*/
 .w3-edu-top {
@@ -700,7 +700,8 @@ h3.w3-head-project {
 .w3-edu-info1 h3 {
     text-transform: capitalize;
     color: #dcad3f;
-	letter-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 1em;
     font-family: 'Dekko', cursive;
 }
 .w3-edu-grid-header h3 {
