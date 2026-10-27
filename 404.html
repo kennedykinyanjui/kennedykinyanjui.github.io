@@ -7,46 +7,60 @@
 	<title>Page not found — Kennedy Kinyanjui</title>
 	<meta name="robots" content="noindex">
 	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-	<meta name="theme-color" content="#212121">
+	<meta name="theme-color" content="#0b0d10">
+	<meta name="color-scheme" content="dark">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+	<link rel="stylesheet" href="/css/style.css">
 	<style>
-		body {
-			margin: 0;
-			min-height: 100vh;
+		.notfound {
 			display: flex;
 			flex-direction: column;
-			align-items: center;
+			align-items: flex-start;
 			justify-content: center;
-			gap: 0.5em;
-			background: #212121;
-			color: #fff;
-			font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-			text-align: center;
-			padding: 1em;
-			box-sizing: border-box;
+			min-height: 100vh;
+			min-height: 100svh;
+			padding: 0 var(--gutter);
+			max-width: var(--shell);
+			margin: 0 auto;
 		}
 
-		h1 {
-			margin: 0;
-			font-size: 4em;
-			color: #00bcd4;
+		.notfound__code {
+			font-family: var(--font-mono);
+			font-size: 0.8rem;
+			letter-spacing: 0.16em;
+			text-transform: uppercase;
+			color: var(--accent);
+			margin-bottom: 1.25rem;
 		}
 
-		p {
-			margin: 0;
-			color: #999;
+		.notfound h1 {
+			font-size: clamp(2rem, 6vw, 3.25rem);
+			letter-spacing: -0.03em;
 		}
 
-		a {
-			color: #00bcd4;
-			margin-top: 1em;
+		.notfound p {
+			margin-top: 1rem;
+			max-width: 44ch;
+			color: var(--text-muted);
+		}
+
+		.notfound .btn {
+			margin-top: 2.25rem;
 		}
 	</style>
 </head>
 
 <body>
-	<h1>404</h1>
-	<p>That page doesn't exist.</p>
-	<a href="/">Back to the homepage</a>
+	<main class="notfound">
+		<p class="notfound__code">Error 404</p>
+		<h1>That page doesn't exist.</h1>
+		<p>The link may be out of date, or the page may have moved. Everything on this site lives on
+			the one page.</p>
+		<a class="btn btn--primary" href="/">Back to the homepage</a>
+	</main>
 </body>
 
 </html>
